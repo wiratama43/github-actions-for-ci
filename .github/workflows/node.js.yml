@@ -33,7 +33,7 @@ jobs:
     name: test
 
 on:[push]
-
+    needs: build
 jobs:
   build:
   runs-on: ubuntu-latest
